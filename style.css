@@ -1,0 +1,82 @@
+    /* styles.css */
+    body {
+        background-color: #121212;
+        color: #ffffff;
+            font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+           
+       .contact-container {
+           max-width: 600px;
+           margin: 50px auto;
+           padding: 20px;
+           background-color: #1e1e1e;
+           border-radius: 10px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       }
+       
+       h1 {
+           text-align: center;
+       }
+       
+       .input-group {
+           margin-bottom: 15px;
+       }
+       
+       label {
+           display: block;
+           margin-bottom: 5px;
+       }
+       
+       input, textarea {
+           width: 100%;
+           padding: 10px;
+           border: none;
+           border-radius: 5px;
+           background-color: #333;
+           color: #fff;
+       }
+       
+       button {
+           width: 100%;
+           padding: 10px;
+           border: none;
+           border-radius: 5px;
+           background-color: #6200ea;
+           color: #fff;
+           font-size: 16px;
+           cursor: pointer;
+           transition: transform 0.3s;
+       }
+       
+       button:hover {
+           transform: translateY(-3px);
+       }
+       
+       ::-webkit-scrollbar {
+           width: 10px;
+       }
+       
+       ::-webkit-scrollbar-track {
+           background: #333;
+       }
+       
+       ::-webkit-scrollbar-thumb {
+           background: #6200ea;
+           border-radius: 5px;
+       }
+       .input-icon {
+           display: flex;
+           align-items: center;
+       }
+       
+       .input-icon i {
+           margin-right: 10px;
+       }
+       
+       .input-group, button {
+           opacity: 0;
+           transform: translateY(20px);
+           transition: opacity 0.5s, transform 0.5s;
+        }

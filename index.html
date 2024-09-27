@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   </head>
+   <body>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <div class="input-group">
+            <label for="name">Name</label>
+            <div class="input-icon">
+                <i class="material-icons">person</i>
+                <input type="text" id="name" name="name" required>
+            </div>
+        </div>
+        
+        <form>
+            <!-- <div class="input-group">
+                <label for="name"></label>
+                <i class="material-icons">person</i>
+                <input type="text" id="name" name="name" required>
+            </div> -->
+            <div class="input-group">
+                <label for="email">Email</label>
+                <i class="material-icons">mail</i>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <i class="material-icons">message</i>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
